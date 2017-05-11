@@ -18,8 +18,8 @@ public class MainEntry {
 		Person p1,p2;
 		Teacher t=new TeacherImpl("Ilker","java");
 		Student s= new StudentImpl("Paul","java");
-		p1=(Person) t;
-		p2=(Person) s;
+		p1= t;
+		p2= s;
 		System.out.println(p1.getName()+" "+p2.getName());
 
 	}
